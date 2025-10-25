@@ -1,0 +1,6 @@
+REST API - HTTP Methods and Status Codes
+	72	What are HTTP verbs and HTTP methods?
+	73	What are the GET, POST, PUT, and DELETE HTTP methods?
+	74	What is the difference between the PUT and PATCH methods?
+	75	Explain the concept of idempotent in RESTful API.
+	76	What is the role of status codes in RESTful APIs?

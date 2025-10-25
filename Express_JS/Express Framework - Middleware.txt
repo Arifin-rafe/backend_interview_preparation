@@ -1,0 +1,7 @@
+Express Framework - Middleware
+	37	What is middleware in Express.js and when to use them?
+	38	How to implement middleware in Express?
+	39	What is the purpose of the app.use function in Express?
+	40	What is the purpose of the next parameter in Express.js?
+	41	How to use middleware globally for a specific route?
+	42	What is the request pipeline in Express?

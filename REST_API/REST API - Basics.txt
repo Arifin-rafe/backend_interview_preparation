@@ -1,0 +1,5 @@
+REST API - Basics
+	68	What are REST and RESTful API?
+	69	What are the HTTP request and HTTP response structure in the UI and REST API?
+	70	What are the top five REST guidelines and the advantages of them?
+	71	What is the difference between REST API and SOAP API?

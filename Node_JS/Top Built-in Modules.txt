@@ -1,0 +1,10 @@
+Top Built-in Modules
+	24	What are the top five built-in modules commonly used in Node projects?
+	25	Explain the role of the fs module. Name some functions of it.
+	26	Explain the role of the path module. Name some functions of it.
+	27	Explain the role of the OS module. Name some functions of it.
+	28	Explain the role of the events module. How to handle events in Node?
+	29	What are event arguments?
+	30	What is the difference between a function and an event?
+	31	What is the role of the HTTP module in Node?
+	32	What is the role of the createServer method of the HTTP module?
