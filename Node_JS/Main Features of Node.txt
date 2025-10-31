@@ -2,22 +2,18 @@
 Main features:
 
 Asynchronous & Event-driven
-
 Single-threaded but highly scalable
-
 Fast execution using V8 engine
-
 Non-blocking I/O model
-
 Cross-platform support
-
 Large NPM ecosystem
-
 Built-in libraries for networking and file system
 
 6. What is single-threaded programming?
 
-Single-threaded programming means the program runs on one main thread, handling one operation at a time — but in Node.js, async callbacks let it manage many tasks efficiently on that single thread.
+Single-threaded programming means the program runs on one main thread, 
+handling one operation at a time — but in Node.js, async callbacks 
+let it manage many tasks efficiently on that single thread.
 
 7. What is synchronous programming?
 
@@ -25,11 +21,13 @@ Synchronous programming executes tasks one after another, blocking the next task
 
 8. What is multi-threaded programming?
 
-Multi-threaded programming uses multiple threads to perform multiple tasks simultaneously, improving performance for CPU-heavy operations.
+Multi-threaded programming uses multiple threads to perform multiple tasks simultaneously,
+improving performance for CPU-heavy operations.
 
 9. What is asynchronous programming?
 
-Asynchronous programming allows tasks to run without waiting for others to complete — improving speed and responsiveness.
+Asynchronous programming allows tasks to run without waiting for others to complete — 
+improving speed and responsiveness.
 
 10. What is the difference between synchronous and asynchronous programming?
 Synchronous     -----------------------	Asynchronous
@@ -58,7 +56,6 @@ Large community and NPM support
 13. What are the disadvantages of Node.js? When to use or not use it?
 
 Disadvantages:
-
 Not ideal for CPU-intensive tasks
 Callback hell (though improved with promises/async-await)
 Single-threaded may limit performance for heavy computations
