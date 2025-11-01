@@ -1,7 +1,7 @@
 // function fruit(){
 //     console.log(name);
-//     console.log(price);    
-    
+//     console.log(price);
+
 //     var name = 'apple';
 //     let price = 20;
 // }
@@ -222,3 +222,163 @@
 // console.log(typeof typeof 1);
 // // Output:
 // // string
+
+//27
+// const numbers = [1, 2, 3];
+// numbers[9] = 11;
+// console.log(numbers);
+// // Output:
+// // [ 1, 2, 3, <6 empty items>, 11 ]
+
+//28
+
+// const numbers = [1, 2, 3];
+// numbers[3] = numbers;
+// console.log(numbers);
+// // Output:
+// // [ 1, 2, 3, [Circular] ]
+
+//29
+//Everything in JavaScript is either a Primitive or an Object.
+// Primitives: string, number, bigint, boolean, undefined, symbol, and null.
+// Objects: arrays, functions, dates, and more.
+
+//30
+// console.log(!!null);
+// console.log(!!"");
+// console.log(!!1);
+// Output:
+// false
+// false
+// true
+
+//31
+// console.warn(setInterval(()=> console.log("hi"), 1000));
+// console.warn(setInterval(()=> console.log("hi"), 1000));
+// console.warn(setInterval(()=> console.log("hi"), 1000));
+// Output:
+// 1
+// 2
+// 3
+// (Each number represents the interval ID returned by setInterval)
+
+//32
+// console.log([...'rafe']);
+// Output:
+// [ 'r', 'a', 'f', 'e' ]
+
+//37
+// let data = 2 + 3 + '5';
+// console.log(typeof data);
+// Output:
+// string
+
+//38
+// console.log(typeof 3 + 4 +"5")
+// Output:
+// number45
+
+//39
+// console.log(typeof (3 + 4 +"5"))
+// Output:
+// string
+
+//40
+// console.log(typeof [])
+// Output:
+// object
+
+//41
+// let data = [1, 2, 3].map((num) => {
+//   if (typeof num === "number") return;
+//   return num * 2;
+// });
+// console.log(data);
+// Output:
+// [ undefined, undefined, undefined ]
+
+//42
+
+// function getInfo(member) {
+//   member.name = "shupty";
+// }
+// const person = { name: "Rafe" };
+// getInfo(person);
+// console.log(person.name);
+// Output:
+// shupty
+
+//43
+// function Car() {
+//     this.make = "TATA";
+//     return { make: "Mahindra" };
+// }
+// const myCar = new Car();
+// console.log(myCar.make);
+// Output:
+// Mahindra
+
+//44
+// (() => {
+//     let x = (y = 10);
+// })();
+
+// console.log(typeof x);
+// console.log(typeof y);
+// Output:
+// undefined
+// number
+
+//45
+// (() => {
+//     let x = y = 10;
+// })();
+// console.log(typeof y);
+// Output:
+// number
+
+//46
+// (() => {
+//     let x = 10;
+// })();
+
+// (() => {
+//     let x = 10;
+// })();
+// console.log(x);
+// console.log(typeof x)
+// Output:
+// ReferenceError: x is not defined
+// undefined
+
+//47
+// (() => {
+//     let x = y = 10;
+// })();
+// (() => {
+//     let x = y = 20;
+// })();
+// console.log(y);
+// console.log(x);
+// Output:
+// 20
+// ReferenceError: x is not defined
+
+//48
+// let x = 100
+// (() => {
+//     var x = 20;
+// })();
+// console.log(x)
+// Output:
+// 100
+
+//49
+// console.warn(!true - true)
+// Output:
+// -1
+
+//50
+// console.warn(true + + "10")
+// Output:
+// 11
