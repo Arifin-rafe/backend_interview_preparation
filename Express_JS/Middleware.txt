@@ -1,7 +1,37 @@
 Express Framework - Middleware
 	37	What is middleware in Express.js and when to use them?
+
+	Middleware are functions that run between the request and the response in Express.
+	They can modify requests, responses, or execute additional code before sending a final response.
+
+	Use middleware when you need to:
+	Log requests
+	Authenticate users
+	Parse JSON or form data
+	Handle errors
+	Add headers or modify responses
+
 	38	How to implement middleware in Express?
+
+	Middleware are just functions that take (req, res, next) as parameters.
+
 	39	What is the purpose of the app.use function in Express?
+
+	app.use() is used to mount middleware in an Express app.
+	You can use it for:
+	Global middleware (runs for all routes)
+	Specific route middleware (runs only for selected routes)
+
 	40	What is the purpose of the next parameter in Express.js?
+
+	The next parameter tells Express to move to the next middleware or route handler in the chain.
+	If you don’t call next(), the request will hang and never reach the route.
+
 	41	How to use middleware globally for a specific route?
+
+	“app.use() → global, app.get() → route-specific.”	
+	
 	42	What is the request pipeline in Express?
+
+	The request pipeline is the sequence of middleware and route handlers that an incoming
+	request passes through before generating a response.
