@@ -1,0 +1,28 @@
+// Express Framework - Routing
+// 	51	What is routing in Express?
+
+// 	Routing in Express defines how the application responds to client requests for different URLs
+// 	and HTTP methods (GET, POST, PUT, DELETE, etc.).
+
+// 	52	What is the difference between middleware and routing in Express?
+
+// 	middleware-To process requests before they reach the route.Runs before the route
+// 	route-To handle the final request and send a response.Runs after middleware
+
+// 	53	How to implement routing? How do you define routes in Express?
+
+// 	You define routes using HTTP methods like app.get(), app.post(), etc.
+
+// 	54	How to handle routing in Express real applications?
+
+// 	In real apps, routes are usually split into separate files using the express.
+// 	Router() module for better structure.
+
+// 	55	What are route handlers?
+
+// 	Route handlers are functions that run when a specific route is matched.
+
+// 	56	What are route parameters in Express?
+	
+// 	Route parameters are dynamic parts of a route URL that act like variables.
+// 	They are defined with a colon (:) and accessed via req.params.

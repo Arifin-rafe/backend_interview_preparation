@@ -1,0 +1,32 @@
+// REST API - Basics
+// 	68	What are REST and RESTful API?
+
+// 	REST (Representational State Transfer) is an architectural style for designing networked applications.
+// 	A RESTful API follows REST principles to communicate between client and server via HTTP.
+// 	It uses standard HTTP methods like GET, POST, PUT, and DELETE.
+// 	It focuses on resources, represented through URLs and exchanged in JSON format
+
+// 	69	What are the HTTP request and HTTP response structure in the UI and REST API?
+
+// 	HTTP Request includes: method (GET/POST/etc.), URL, headers, and optional body (for data).
+// 	Example: a POST request sends data in JSON format to the server.
+// 	HTTP Response includes: status code (200, 404, 500), headers, and body (data/result).
+// 	Client (UI) sends request → server processes → sends structured response back.
+
+// 	70	What are the top five REST guidelines and the advantages of them?
+
+// 	Statelessness – Each request is independent (improves scalability).
+// 	Client-Server Separation – Clear separation between frontend and backend.
+// 	Uniform Interface – Consistent structure (easy to use & understand).
+// 	Resource-Based URLs – Access resources via URLs (organized design).
+// 	Use of HTTP Methods – Standard actions (GET, POST, PUT, DELETE) make APIs predictable.
+
+// 	71	What is the difference between REST API and SOAP API?
+
+// 	| Feature         | REST API                     | SOAP API                      
+// 	| --------------- | ---------------------------- | ----------------------------- |
+// 	| **Protocol**    | Uses HTTP only               | Uses XML-based protocol       |
+// 	| **Format**      | Supports JSON, XML           | Strictly XML                  |
+// 	| **Performance** | Faster, lightweight          | Slower, more complex          |
+// 	| **Ease of Use** | Easy to implement            | Harder to set up and maintain |
+// 	| **Flexibility** | Highly flexible and scalable | Rigid but secure              |

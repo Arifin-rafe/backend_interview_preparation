@@ -1,0 +1,18 @@
+// 1. What is Node.js?
+
+// Node.js is a JavaScript runtime environment 
+// that lets you run JS on the server side using the V8 engine.
+
+// 2. What is the difference between a framework and a runtime environment?
+
+// A runtime environment runs your code, while a framework provides structure and tools to build applications.
+
+// 3. What is the difference between Node.js and Express.js?
+
+// Node.js runs JavaScript outside the browser,
+// while Express.js is a framework built on Node.js to simplify web app and API development.
+
+// 4. What are the differences between client-side and server-side?
+
+// Client-side runs in the browser and handles UI, while server-side runs on the server and 
+// handles logic, data, and responses.

@@ -1,9 +1,0 @@
-Express Framework - Types of Middleware
-	43	What are the types of middleware in Express.js?
-	44	What is the difference between application-level and router-level middleware?
-	45	What is error-handling middleware and how to implement it?
-	46	If you have five middlewares, then in which middleware will you do the error handling?
-	47	What is built-in middleware? How to serve static files from Express.js?
-	48	What are third-party middleware? Give some examples.
-	49	Can you summarize all the types of middleware?
-	50	What are the advantages of using middleware in Express.js?

@@ -1,0 +1,22 @@
+// Express Framework - Basics
+// 	33	What are the advantages of using Express with Node?
+
+// 	Main advantages:
+// 	Simplified routing – easy to handle different URLs and HTTP methods.
+// 	Middleware support – helps handle requests, responses, and errors easily.
+// 	Faster development – provides ready-to-use features for web apps and APIs.
+// 	Integration – works well with databases (MongoDB, MySQL, etc.).
+// 	Scalable – lightweight and flexible for both small and large apps.
+
+// 	34	How do you install Express in a Node project?
+
+// 	Initialize project → npm init -y
+// 	Install Express → npm install express
+
+// 	35	How to create an HTTP server using Express.js?
+
+// 	“Require → Create app → Route → Listen.
+
+// 	36	How do you create and start the Express application?
+
+// 	Import → Create → Route → Listen.”
