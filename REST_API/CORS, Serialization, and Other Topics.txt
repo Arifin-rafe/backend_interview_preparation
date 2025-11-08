@@ -1,9 +1,0 @@
-REST API - CORS, Serialization, and Other Topics
-	77	What is CORS in RESTful APIs?
-	78	How to remove CORS restriction on RESTful API?
-	79	What are serialization and deserialization?
-	80	What are the types of serialization?
-	81	How to serialize and deserialize in Node.js?
-	82	Explain the concept of versioning in RESTful APIs.
-	83	What is an API document? What are the popular documentation formats?
-	84	What is the typical structure of a REST API project in Node?

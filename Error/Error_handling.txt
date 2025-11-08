@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 Random Topics - Error Handling and Debugging
 	95	What is error handling? In how many ways can you implement error handling in Node applications?
 	96	How to handle errors in synchronous operations using try-catch-finally?
